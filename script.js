@@ -142,3 +142,18 @@ scrollTop.forEach((e1)=>observer.observe(e1));
 // mix it up portfolio section
 
 var mixer = mixitup('.portfolio-gallery');
+
+
+
+
+
+
+
+
+
+
+const menu=document.querySelector(".b-menu");
+const toggle=document.querySelector(".toggle");
+toggle.addEventListener("click",()=>{
+  menu.classList.toggle("active");
+})
